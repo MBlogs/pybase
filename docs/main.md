@@ -1,1 +1,3 @@
-::: src.pybase.main
+Example generation from code
+
+::: pybase.main

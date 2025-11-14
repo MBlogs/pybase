@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+Generated documentation
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Generate
+```
+mkdocs serve
+```
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        api.md    # Another page
-        ...       # Other markdown pages, images and other files.
+## Documentation Layout
+```
+mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    main.md   # Another page
+    ...       # Other markdown pages, images and other files.
+```
+    

@@ -1,8 +1,8 @@
-from pybase.myapi import myprint
+from pybase.main import main
 
 
 def test_main():
     try:
-        myprint()
+        main()
     except Exception as e:
         assert False, f"main() raised an exception: {e}"
