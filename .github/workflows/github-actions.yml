@@ -2,8 +2,9 @@ name: CI
 
 on:
   workflow_dispatch:  # Manual trigger
-  # push:             # Automatic trigger on push
-  #   branches: [ main ]
+  #push:              # Automatic trigger
+  #  branches: [ main ]
+  
 
 jobs:
   ci:

@@ -45,5 +45,3 @@ minversion = "9.0"
 # Command line options to always include when pytest run
 # ra = show extra summary. q = reduce verbosity
 addopts = ["-ra", "-q"]
-# Lets pytest know to add src folder to sys.path
-pythonpath = ["src"]
